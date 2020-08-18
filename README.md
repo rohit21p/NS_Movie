@@ -1,2 +1,2 @@
-# NS_Movie
+# NS_Quiz
 Created with CodeSandbox

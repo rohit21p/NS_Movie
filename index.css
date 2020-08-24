@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  background-color: black;
+  padding: 5%;
+  margin: 0;
+  overflow: auto;
+  justify-content: flex-start;
+}
+
+.flex {
+  height: 110%;
+  margin: 15px;
+  max-width: 95%;
+  overflow: auto;
+  overflow-y: hidden;
+  display: flex;
+  position: relative;
+  top: 8px;
+}
+
+.f-item {
+  min-width: 200px;
+  height: 100%;
+  background-color: gray;
+  margin: 0;
+  margin-right: 5%;
+}
+
+.kabir {
+  background-image: url("./kabirsingh.jpeg");
+  background-size: 100% 100%;
+}
+
+.lionking {
+  background-image: url("./lionking.jpeg");
+  background-size: 100% 100%;
+}
+
+.movie,
+.show {
+  background-image: url("./movie.jpg");
+  background-size: 100% 100%;
+}
+
+.actor {
+  background-image: url("./actor.jpeg");
+  background-size: 100% 100%;
+}
+
+.container {
+  height: 20%;
+  flex-shrink: 0;
+  margin-bottom: 15px;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.fa {
+  color: rgb(0, 155, 245);
+  font-size: 30px;
+}
+
+@media (max-height: 600px) {
+  .container {
+    height: 30% !important;
+  }
+}
